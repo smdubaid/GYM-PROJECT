@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('gym-bg.webp.jpg');
+    background-size:cover;
+    color: white;
+    font-family: "Anta", sans-serif;
+}
+
+
+
+.navbar li{
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a:hover, .navbar li .active{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    text-anchor:rgb(255, 0, 0);
+}
+
+.login-signup {
+    float: right;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.login-signup a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+}
+
+.login-signup a:hover {
+    color: black;
+}
+
+.quot pre{
+    font-size: 30px;
+    font-family: "Anta", sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.gify{
+    background-image: url('gym-gify.gif');
+    background-size: contain;
+    width: 535px;
+    height: 300px;
+    margin: 30px;
+    filter: invert(100%);
+}

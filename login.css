@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('gym-bg.webp.jpg');
+    background-size:cover;
+    color: white;
+    font-family: "Anta", sans-serif;
+}
+
+
+
+.navbar li{
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a:hover, .navbar li .active{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    text-anchor:rgb(255, 0, 0);
+}
+
+.container{
+    padding-top: 10px;
+    margin-top: 80px;
+    width: 350px;
+    height: 390px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.container input[type="text"], button{
+    font-family: "Anta", sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px; 
+    color: white;   
+}
+button{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+button a{
+    text-decoration: none;
+    color: antiquewhite;
+}

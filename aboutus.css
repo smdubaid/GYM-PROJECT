@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('gym-bg.webp.jpg');
+    background-size: cover;
+    color: white;
+    font-family: "Anta", sans-serif;
+}
+
+.navbar li {
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li .active {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+.about-section {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+}
+
+.about-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
